@@ -5,6 +5,9 @@
     /* không cộng dồn padding */
     box-sizing: border-box;
 }
+section{
+    padding: 80px 15px;
+}
 .section-heading{
     font-size: 14px;
     font-weight: 300;
