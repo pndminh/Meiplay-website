@@ -15,6 +15,7 @@ header{
     flex-direction: row;
     justify-content: start;
     align-items: center;
+    cursor: pointer;
 }
 .logo-meipaly i{
     font-size: 32px;

@@ -5,20 +5,26 @@
     /* không cộng dồn padding */
     box-sizing: border-box;
 }
-p,h1,h2,h3{
-    font-family: 'Oswald', sans-serif;
-}
-p{
+.section-heading{
+    font-size: 14px;
     font-weight: 300;
 }
-h1{
-    font-weight: 700;
-}
-h2{
+.section-title{
+    font-size: 50px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
-h3{
-    font-weight: 400;
+.section-text-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.section-info{
+    font-size: 18px;
+    font-weight: 600;
+    color: #888888;
 }
 img{
     max-width: 225px;
