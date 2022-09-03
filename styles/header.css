@@ -2,13 +2,13 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border-bottom-color: white;
+    border-bottom: 1px solid #ffffff85;  
     height: 90px;
-    margin: 0 70px 0 70px;
+    margin: 0;
     align-items: center;
-    background-color: black;
     width: 100%;
     padding: 0 15px;
+    position: absolute;
 }
 .logo-meipaly{
     display: flex;
@@ -17,11 +17,14 @@ header{
     align-items: center;
 }
 .logo-meipaly i{
-    width: 32px;
+    font-size: 32px;
     color: white;
+    margin: 0 15px 0 0;
 }
 .logo-meipaly h2{
     color: white;
+    font-size: 32px;
+    font-weight: 700;
     margin-bottom: 0;
 }
 .nav-bar{
@@ -32,10 +35,10 @@ header{
 }
 .nav-bar a{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Oswald', sans-serif;
     color: white;
-    margin: 0 0 0 30px;
+    margin: 0 0px 0 30px;
     text-decoration: none;
 }
 .nav-bar a:hover{

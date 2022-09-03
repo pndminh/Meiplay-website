@@ -1,5 +1,9 @@
-body{
-    min-width: 710px;
+* {
+    font-family: 'Oswald', sans-serif;
+    padding: 0;
+    margin: 0;
+    /* không cộng dồn padding */
+    box-sizing: border-box;
 }
 p,h1,h2,h3{
     font-family: 'Oswald', sans-serif;
