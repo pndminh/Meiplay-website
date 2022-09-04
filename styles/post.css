@@ -1,3 +1,9 @@
+.news-meipaly{
+    background-color: white;
+}
+.news-meipaly .section-heading{
+    color: gray;
+}
 .post-grid{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -39,9 +45,16 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: space-between;
-    padding: 15px;
+    padding: 30px;
     top: 0;
     left: 0;
+    opacity: 0;
+}
+.post-info-content{
+    color: white;
+}
+.post-name{
+    font-size: 30px;
 }
 .post-search-more{
     align-self: flex-end;
@@ -49,11 +62,12 @@
     background-color: white;
     padding: 5px 10px;
 }
+.post-info:hover{
+    background-color: #e62b4a91;
+    opacity: 1;
+}
 .post-search-more:hover{
     background-color: black;
     color: white;
 }
-.post-info:hover{
-    background-color: #e62b4a91;
-    visibility: visible;
-}
+

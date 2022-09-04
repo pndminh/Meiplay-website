@@ -5,12 +5,15 @@
     /* không cộng dồn padding */
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 section{
     padding: 80px 15px;
 }
 .section-heading{
     font-size: 14px;
-    font-weight: 300;
+    font-weight: 400;
 }
 .section-title{
     font-size: 50px;
@@ -28,8 +31,4 @@ section{
     font-size: 18px;
     font-weight: 600;
     color: #888888;
-}
-
-video{
-    max-width: 457px;
 }
