@@ -9,13 +9,11 @@
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 30px;
 }
-.post{
-    opacity: 0.5;
-}
 .post img{
     object-fit: cover;
     width: 100%;
     height: 100%;
+    filter: grayscale(50%) contrast(50%);
 }
 #start-post{
     grid-column-start: 1;
@@ -29,6 +27,33 @@
     grid-row-start: 1;
     grid-row-end: 3;
 }
+.post{
+    cursor: pointer;
+    position: relative;
+}
 .post-info{
-    display: none;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 15px;
+    top: 0;
+    left: 0;
+}
+.post-search-more{
+    align-self: flex-end;
+    top: 0;
+    background-color: white;
+    padding: 5px 10px;
+}
+.post-search-more:hover{
+    background-color: black;
+    color: white;
+}
+.post-info:hover{
+    background-color: #e62b4a91;
+    visibility: visible;
 }
